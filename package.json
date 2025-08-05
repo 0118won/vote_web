@@ -40,5 +40,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://l2.ai-capstone.store"
+  "proxy": "192.168.222.111:8080"
 }
