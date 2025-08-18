@@ -65,7 +65,7 @@ const BlockExplorer = () => {
     setShowJson(false);
 
     try {
-      const res = await axios.get(`http://192.168.222.114:31100/block/query?height=${height}`);
+      const res = await axios.get(`https://block.jw-capstone.store/block/query?height=${height}`);
       setSelectedBlock(res.data);
     } catch (e) {
       setError('블록 조회 중 오류가 발생했습니다.');
